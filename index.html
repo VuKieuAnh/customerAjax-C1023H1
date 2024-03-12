@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    Thư vien cua -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+<form>
+<input type="text" name="name" id="name" placeholder="name"/>
+<br>
+<input type="text" name="age" id="age" placeholder="age"/>
+<br>
+<input type="text" name="gender" id="gender" placeholder="gender"/>
+<br>
+<input type="text" name="address" id="address" placeholder="gender"/>
+<br>
+<button onclick="createNewCustomer()">create</button>
+</form>
+<h1> Danh sach khach hang</h1>
+<table border="1px">
+    <tr>
+        <td>id</td>
+        <td>name</td>
+        <td>address</td>
+        <td>gender</td>
+        <td>age</td>
+    </tr>
+    <tbody id="list">
+
+    </tbody>
+</table>
+<script src="js.js"></script>
+</body>
+</html>
